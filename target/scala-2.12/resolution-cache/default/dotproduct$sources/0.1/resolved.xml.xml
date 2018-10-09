@@ -4,7 +4,7 @@
 		module="dotproduct$sources"
 		revision="0.1"
 		status="integration"
-		publication="20181006102947"
+		publication="20181009135124"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

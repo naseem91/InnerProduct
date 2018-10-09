@@ -12,3 +12,5 @@ object InnerProduct {
   def times(list1:List[Double],list2:List[Double]):List[Double]=list1.zip(list2).map { case (a, b) => a * b }
   def pls(list:List[Double])=list.fold(0.0)(_+_)
 }
+
+
