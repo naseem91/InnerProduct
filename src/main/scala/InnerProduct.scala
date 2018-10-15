@@ -1,12 +1,5 @@
 object InnerProduct {
 
-  val list1 = List(1,8,5)
-  val list2 = List(4, 7,9)
-  //println("Result using map = "+innerProduct_Map[Int, Int, Int, Int](list1)(list2)(_ * _)(_ + _)(0))
-  // println("Netx = " +innerProduct_Next[Int, Int, Int, Int](list1)(list2)(_ * _)(_ + _)(0))
-  while (list1.iterator.hasNext){
-    println(list1.iterator.next())
-  }
   //Inner product using for
   def innerProduct_For[A, B, C, D](l1: Seq[A])(l2: Seq[B])(tms: (A, B) => C)(pls: (D, C) => D)(zero: D): D = {
     var acc = zero
@@ -22,15 +15,13 @@ object InnerProduct {
     var acc = zero
     val n = l1.length
     assert(l2.length == n)
-    while (l1.iterator.hasNext){
-        println(l1.iterator.next())
-      }
-//    for (i <- 0 until n) {
-//      acc = pls(acc, tms(l1(i), l2(i)))
-//    }
+    val it1 = l1.iterator
+    val it2 = l2.iterator
+    while (it1.hasNext && it2.hasNext) {
+        acc = pls(acc, tms(it1.next(),it2.next()))
+    }
     acc
   }
-
   //Inner product using while
   def innerProduct_While[A, B, C, D](l1: Seq[A])(l2: Seq[B])(tms: (A, B) => C)(pls: (D, C) => D)(zero: D): D = {
     var acc = zero
