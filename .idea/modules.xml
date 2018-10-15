@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dotproduct.iml" filepath="$PROJECT_DIR$/.idea/modules/dotproduct.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dotproduct-build.iml" filepath="$PROJECT_DIR$/.idea/modules/dotproduct-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/innerproduct.iml" filepath="$PROJECT_DIR$/.idea/modules/innerproduct.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/innerproduct-build.iml" filepath="$PROJECT_DIR$/.idea/modules/innerproduct-build.iml" />
     </modules>
   </component>
 </project>
