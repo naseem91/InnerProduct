@@ -78,7 +78,29 @@ object InnerProduct {
     start(zero,n)
   }
 
-  def main(args: Array[String]): Unit = {}
+  def innerProduct_HeadTail[A, B, C, D](l1: Seq[A])(l2: Seq[B])(tms: (A, B) => C)(pls: (D, C) => D)(zero: D): D = {
+    var acc = zero
+    val n = l1.length
+    assert(l2.length == n)
+
+    def start(acc:D, ele1:Seq[A], ele2:Seq[B]): D ={
+      if(ele1 == Nil)
+        acc
+      else
+        start(pls(acc, tms(ele1.head,ele2.head)), ele1.tail, ele2.tail)
+    }
+   start(zero,l1,l2)
+  }
+
+  def main(args: Array[String]): Unit = {
+//    val list1 = 1 to 4
+//    val list2 = 1 to 4
+//    var rs1 = innerProduct_Recursion[Int, Int, Int, Int](list1)(list2)(_ * _)(_ + _)(0)
+//    println(rs1)
+//
+//    var rs2 = innerProduct_HeadTail[Int, Int, Int, Int](list1)(list2)(_ * _)(_ + _)(0)
+//    println(rs2)
+  }
 }
 
 

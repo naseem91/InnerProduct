@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="dc3b5f67-7316-4557-9802-ce0ba50871eb" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/InnerProduct.scala" afterPath="$PROJECT_DIR$/src/main/scala/InnerProduct.scala" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/InnerProductExamples.scala" afterPath="$PROJECT_DIR$/src/main/scala/InnerProductExamples.scala" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/Test.scala" afterPath="$PROJECT_DIR$/src/test/scala/Test.scala" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,8 +37,8 @@
       <file leaf-file-name="InnerProduct.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/InnerProduct.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1149">
-              <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+            <state relative-caret-position="196">
+              <caret line="97" column="22" lean-forward="false" selection-start-line="97" selection-start-column="22" selection-end-line="97" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -47,8 +47,8 @@
       <file leaf-file-name="InnerProductExamples.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/InnerProductExamples.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+            <state relative-caret-position="142">
+              <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -83,8 +83,8 @@
         <option value="$PROJECT_DIR$/src/main/test/Test.scala" />
         <option value="$PROJECT_DIR$/src/main/test/scala/Test.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/InnerProduct2.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/InnerProduct.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/Test.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/InnerProduct.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/InnerProductExamples.scala" />
       </list>
     </option>
@@ -111,8 +111,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -155,8 +155,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scratches" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -187,9 +187,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.InnerProductExamples">
-    <configuration name="Unnamed (1)" type="AntRunConfigurationType" factoryName="Ant build" temporary="true" debug-port="25000" jdk-name="1.8" max-memory="256" logging-level="0">
-      <file>$PROJECT_DIR$/src/main/scala/InnerProductExamples.scala</file>
-    </configuration>
     <configuration name="Unnamed (2)" type="AntRunConfigurationType" factoryName="Ant build" temporary="true" debug-port="25000" jdk-name="1.8" max-memory="256" logging-level="0">
       <file>$PROJECT_DIR$/src/main/scala/InnerProductExamples.scala</file>
     </configuration>
@@ -205,6 +202,20 @@
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
+    </configuration>
+    <configuration name="InnerProduct" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="InnerProduct" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="innerproduct" />
+      <envs />
     </configuration>
     <configuration name="InnerProductExamples" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -307,19 +318,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Ant build.Unnamed (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Ant build.Unnamed (2)" />
-      <item index="2" class="java.lang.String" itemvalue="Ant build.Unnamed (3)" />
-      <item index="3" class="java.lang.String" itemvalue="Ant build.Unnamed (4)" />
-      <item index="4" class="java.lang.String" itemvalue="Application.InnerProductExamples" />
+      <item index="0" class="java.lang.String" itemvalue="Ant build.Unnamed (2)" />
+      <item index="1" class="java.lang.String" itemvalue="Ant build.Unnamed (3)" />
+      <item index="2" class="java.lang.String" itemvalue="Ant build.Unnamed (4)" />
+      <item index="3" class="java.lang.String" itemvalue="Application.InnerProductExamples" />
+      <item index="4" class="java.lang.String" itemvalue="Application.InnerProduct" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Application.InnerProductExamples" />
-        <item index="1" class="java.lang.String" itemvalue="Ant build.Unnamed (4)" />
-        <item index="2" class="java.lang.String" itemvalue="Ant build.Unnamed (3)" />
-        <item index="3" class="java.lang.String" itemvalue="Ant build.Unnamed (2)" />
-        <item index="4" class="java.lang.String" itemvalue="Ant build.Unnamed (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Application.InnerProduct" />
+        <item index="2" class="java.lang.String" itemvalue="Ant build.Unnamed (4)" />
+        <item index="3" class="java.lang.String" itemvalue="Ant build.Unnamed (3)" />
+        <item index="4" class="java.lang.String" itemvalue="Ant build.Unnamed (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -401,12 +412,18 @@
       <option name="project" value="LOCAL" />
       <updated>1539627314338</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Solving task 3 (inner product using for, while,foreach ,foldleft,map,recursion)">
+      <created>1539760152086</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1539760152086</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="49" y="-4" width="1317" height="772" extended-state="6" />
-    <editor active="true" />
+    <frame x="196" y="4" width="1319" height="780" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -424,7 +441,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2675059" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2769473" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.49409914" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -480,6 +497,54 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/scala/Test.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/InnerProduct.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1368">
+          <caret line="76" column="5" lean-forward="false" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/InnerProductExamples.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="37" column="26" lean-forward="false" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/Test.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/InnerProduct.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1368">
+          <caret line="76" column="5" lean-forward="true" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/InnerProductExamples.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="37" column="26" lean-forward="true" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/Test.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -595,16 +660,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/InnerProduct.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1149">
-          <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        <state relative-caret-position="196">
+          <caret line="97" column="22" lean-forward="false" selection-start-line="97" selection-start-column="22" selection-end-line="97" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/InnerProductExamples.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        <state relative-caret-position="142">
+          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding />
         </state>
       </provider>

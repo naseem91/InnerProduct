@@ -2,8 +2,8 @@
 object InnerProductExamples {
 
   import InnerProduct._
-  val list1 = 1 to 50
-  val list2 = 1 to 50
+  val list1 = 1 to 4
+  val list2 = 1 to 4
   def main(args: Array[String]): Unit = {
 
     var times = collection.mutable.Map[String,Double]()
@@ -43,6 +43,12 @@ object InnerProductExamples {
     t1 = System.nanoTime()
     println("Result using recursion = "+res7  + " during " + (t1 - t0)/1000000.0 + " s")
     times += ("recursion" -> (t1 - t0)/1000000.0)
+
+    t0 = System.nanoTime()
+    val res8 = innerProduct_HeadTail[Int, Int, Int, Int](list1)(list2)(_ * _)(_ + _)(0)
+    t1 = System.nanoTime()
+    println("Result using head and tail = "+res8  + " during " + (t1 - t0)/1000000.0 + " s")
+    times += ("Head and tail" -> (t1 - t0)/1000000.0)
     println("*************************")
     // Gets the way which calculate the result of inner product in best performance
     val min = times.values.min
